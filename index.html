@@ -6,17 +6,22 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Ezequiel Maximiliano Sosa</title>
+        
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -27,15 +32,72 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Perfil Profesional</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Experiencia Laboral</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Estudios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .page-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .team-member {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .team-member img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .btn-social {
+            margin: 0 5px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        .col-lg-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            hr.divider {
+    border: none; /* Eliminar el borde por defecto */
+    height: 1px; /* Altura de la línea */
+    background-color: #51317be6; /* Color de la línea */
+    margin: 20px 0; /* Margen arriba y abajo de la línea */
+    position: relative;
+}
+
+hr.divider::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 30%; /* Ancho de la línea dibujada */
+    height: 1px; /* Altura de la línea dibujada */
+    background-color: #51317be6; /* Color de la línea dibujada */
+    transform: translate(-50%, -50%);
+}
+
+    </style>
+        
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
@@ -44,6 +106,7 @@
                 <!--<a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>-->
             </div>
         </header>
+    
         <!-- Perfil Profesional-->
         <section class="page-section" id="services">
             <div class="container">
@@ -51,83 +114,104 @@
                     <h2 class="section-heading text-uppercase">Perfil Profesional</h2>
                     <h3 class="section-heading text-uppercase">Carta de Presentacion</h2>
                     <h3 class="section-subheading text-muted">Ezequiel Maximiliano Sosa. </br> Alberti 169 Rauch, Buenos Aires. </br> Teléfono: 2494-069642. </br> Correo Electrónico: eze.maxi.sosa.2000@gmail.com.</h3>
-                     <p class="text-muted">Estimado/a Responsable de Recursos Humanos: </br>
-Me dirijo a usted con el propósito de presentarme como candidato para cualquier posición disponible en su empresa. Soy estudiante de tercer año de la carrera de Enfermería, apasionado por brindar atención de calidad en diversos entornos laborales. A lo largo de mi trayectoria, he desarrollado una versatilidad que me permite adaptarme a distintas situaciones y contribuir efectivamente en equipos de trabajo.</br>
-He tenido la oportunidad de trabajar en diversos roles, desde la gestión de producción y logística en empresas como Casalia Pinturería y Amanco, hasta el cuidado de personas en el Geriátrico Bernatene y la coordinación de servicios en la cochería Casa Pedro N. Palmieri. Estas experiencias me han permitido fortalecer habilidades clave como la atención al cliente, el trabajo en equipo y la capacidad de resolver problemas en situaciones de alta presión.</br>
-Estoy comprometido con el aprendizaje continuo y busco contribuir positivamente en cualquier equipo. Estoy convencido de que mi capacidad para adaptarme y aprender rápidamente sería un valioso activo para su organización.</br>
-Adjunto a esta carta encontrará mi currículum vitae, donde podrá encontrar más detalles sobre mi formación académica y experiencia laboral. Agradezco su tiempo y consideración, y espero tener la oportunidad de conversar sobre cómo puedo contribuir a su equipo.</br>
-Atentamente.</br>
-Ezequiel Maximiliano Sosa.</p></br>
+                    <p class="text-muted">
+    Estimado/a Responsable de Recursos Humanos:<br><br>
+    Me dirijo a usted con el propósito de presentarme como candidato para cualquier posición disponible en su empresa. Soy estudiante de tercer año de la carrera de Enfermería en [Instituto Superior de Formación Docente y Técnica Nº 70 - Manuel Belgrano], donde he adquirido una sólida formación teórica y práctica en atención al paciente. Estoy apasionado por brindar atención de calidad en diversos entornos laborales y estoy comprometido a contribuir al bienestar de las personas.<br><br>
+    A lo largo de mi trayectoria académica y profesional, he desarrollado una versatilidad que me permite adaptarme a distintas situaciones y contribuir de manera efectiva en equipos de trabajo. He tenido la oportunidad de desempeñarme en diversos roles que han enriquecido mis habilidades y conocimientos:<br><br>
+    <strong>Gestión de Producción y Logística:</strong> En empresas como Casalia Pinturería y Amanco, adquirí experiencia en la gestión de procesos, planificación de la producción y coordinación logística. Estas posiciones me han permitido fortalecer mis habilidades organizativas y de comunicación, así como aprender a trabajar bajo presión para cumplir con plazos estrictos.<br><br>
+    <strong>Atención a Personas:</strong> Mi experiencia en el Geriátrico Bernatene me ha brindado la oportunidad de proporcionar atención personalizada a personas mayores, desarrollando empatía y habilidades interpersonales fundamentales en la profesión de enfermería. He aprendido a escuchar y comprender las necesidades de los pacientes, lo que me ha permitido ofrecer un cuidado integral y humano.<br><br>
+    <strong>Coordinación de Servicios:</strong> En la cochería Casa Pedro N. Palmieri, fui responsable de coordinar los servicios funerarios, lo que me enseñó a manejar situaciones delicadas con sensibilidad y respeto. Esta experiencia ha fortalecido mi capacidad para interactuar con personas en momentos difíciles, brindando apoyo emocional y logístico.<br><br>
+    Estas experiencias me han permitido fortalecer habilidades clave como la atención al cliente, el trabajo en equipo y la capacidad de resolver problemas en situaciones de alta presión. Estoy comprometido con el aprendizaje continuo y busco siempre mejorar mis conocimientos y habilidades para ofrecer el mejor servicio posible.<br><br>
+    Estoy convencido de que mi capacidad para adaptarme y aprender rápidamente sería un valioso activo para su organización. Me entusiasma la idea de ser parte de un equipo que valora la atención al paciente y el trabajo colaborativo. Estoy seguro de que podría contribuir positivamente al ambiente laboral y a los objetivos de su empresa.<br><br>
+    Adjunto a esta carta encontrará mi currículum vitae, donde podrá encontrar más detalles sobre mi formación académica y experiencia laboral. Agradezco sinceramente su tiempo y consideración, y espero tener la oportunidad de conversar sobre cómo puedo contribuir a su equipo. Estoy a su disposición para una entrevista en el momento que lo considere adecuado.<br><br>
+    Atentamente,<br><br>
+    Ezequiel Maximiliano Sosa.
+</p>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">TELÉFONO</h4>
-                        <p class="text-muted">2494-069642.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">CORREO ELECTRÓNICO</h4>
-                        <p class="text-muted">eze.maxi.sosa.2000@gmail.com</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">DIRECCION</h4>
-                        <p class="text-muted">Alberti 169 Rauch Buenos Aires.</p>
-                    </div>
-                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Trabajo en equipo:</h4>
-                        <p class="text-muted">Capacidad para colaborar en entornos grupales y contribuir al logro de objetivos comunes.</p>
-                    </div>
-                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Microsoft Office</h4>
-                        <p class="text-muted">Conocimientos básicos de Word, Excel y PowerPoint para la creación de documentos y presentaciones sencillas.</p>
-                    </div>
-                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Diseño Gráfico</h4>
-                        <p class="text-muted">Familiaridad con Photoshop para tareas básicas de edición de imágenes y con After Effects para la edición de videos simples.</p>
-                    </div>
-                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Desarrollo Web</h4>
-                        <p class="text-muted" style="text-align: center">Conocimientos básicos de HTML y CSS, con experiencia en el uso de WordPress para la creación de sitios web.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+ <hr class="divider"> <!-- Línea dibujada -->
+
+               <h2 class="section-heading text-uppercase text-center">Contacto</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">TELÉFONO</h4>
+            <p class="text-muted">2494-069642.</p>
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">CORREO ELECTRÓNICO</h4>
+            <p class="text-muted">eze.maxi.sosa.2000@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">DIRECCIÓN</h4>
+            <p class="text-muted">Alberti 169, Rauch, Buenos Aires.</p>
+        </div>
+    </div>
+    
+    <br> <!-- Salto de línea -->
+    <hr class="divider"> <!-- Línea dibujada -->
+
+    <h2 class="section-heading text-uppercase text-center">Habilidades</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Trabajo en equipo</h4>
+            <p class="text-muted">Capacidad para colaborar en entornos grupales y contribuir al logro de objetivos comunes.</p>
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Microsoft Office</h4>
+            <p class="text-muted">Conocimientos básicos de Word, Excel y PowerPoint para la creación de documentos y presentaciones sencillas.</p>
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Diseño Gráfico</h4>
+            <p class="text-muted">Familiaridad con Photoshop para tareas básicas de edición de imágenes y con After Effects para la edición de videos simples.</p>
+        </div>
+        <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Desarrollo Web</h4>
+            <p class="text-muted">Conocimientos básicos de HTML y CSS, con experiencia en el uso de WordPress para la creación de sitios web.</p>
+        </div>
+    </div>
+</section>
+
         <!-- Portfolio Grid-->
+
+
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
+                     <hr class="divider"> <!-- Línea dibujada -->
                     <h2 class="section-heading text-uppercase">Experiencia Laboral</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
+                        
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -137,12 +221,13 @@ Ezequiel Maximiliano Sosa.</p></br>
                                 <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Casalia Pinturería</div>
+                                <div class="portfolio-caption-subheading text-muted">Fabricante, Expedición y Armado de Pedidos.</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
+                        
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -152,12 +237,13 @@ Ezequiel Maximiliano Sosa.</p></br>
                                 <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Amanco</div>
+                                <div class="portfolio-caption-subheading text-muted">Expedición y Armado de Pedidos.</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
+                        
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -173,6 +259,7 @@ Ezequiel Maximiliano Sosa.</p></br>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        
                         <!-- Portfolio item 4-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
@@ -188,6 +275,7 @@ Ezequiel Maximiliano Sosa.</p></br>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        
                         <!-- Portfolio item 5-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
@@ -203,6 +291,7 @@ Ezequiel Maximiliano Sosa.</p></br>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
+                        
                         <!-- Portfolio item 6-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
@@ -220,10 +309,14 @@ Ezequiel Maximiliano Sosa.</p></br>
                 </div>
             </div>
         </section>
+
         <!-- About-->
+
+
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
+                     <hr class="divider"> <!-- Línea dibujada -->
                     <h2 class="section-heading text-uppercase">About</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
@@ -232,74 +325,55 @@ Ezequiel Maximiliano Sosa.</p></br>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>Primario Completo - 2017. </h4>
+                                <h4 class="subheading">Escuela ESB 190</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Gregorio de Laferrere, Buenos Aires.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>Secundario Completo - 2019 </h4>
+                                <h4 class="subheading">Escuela de Educación Primaria N° 1 “Domingo Faustino Sarmiento” (Fines)</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Rauch, Buenos Aires</p></div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>Terciarios en Curso - 2024</h4>
+                                <h4 class="subheading">Instituto Superior de Formación Docente y Técnica N° 70 Manuel Belgrano</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted"> Tecnicatura Superior en Enfermería (3er Año) - Rauch, Buenos Aires</p></div>
                         </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
+                    
                 </ul>
             </div>
         </section>
+
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Ezequiel Maximiliano Sosa</h2>
+                    <h3 class="section-subheading text-muted">"Listo para contribuir a su equipo."</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <h4>Ezequiel Maximiliano Sosa</h4>
+                            <p class="text-muted">Estudiante de Enfermería</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
+                    <!-- Team
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
@@ -320,13 +394,15 @@ Ezequiel Maximiliano Sosa.</p></br>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
+                    <!-- Team-->
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Apasionado por el aprendizaje y el desarrollo profesional, me esfuerzo por contribuir de manera positiva en cualquier entorno de trabajo.</p></div>
                 </div>
             </div>
         </section>
-        <!-- Clients-->
+
+        <!-- Clients
         <div class="py-5">
             <div class="container">
                 <div class="row align-items-center">
@@ -345,7 +421,8 @@ Ezequiel Maximiliano Sosa.</p></br>
                 </div>
             </div>
         </div>
-        <!-- Contact-->
+
+        <!-- Contact
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
@@ -358,39 +435,39 @@ Ezequiel Maximiliano Sosa.</p></br>
                 <!-- This form is pre-integrated with SB Forms.-->
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
+                <!-- to get an API token
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <!-- Name input-->
+                                <!-- Name input
                                 <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
-                                <!-- Email address input-->
+                                <!-- Email address input
                                 <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
+                                <!-- Phone number input
                                 <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
+                                <!-- Message input
                                 <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
                     </div>
-                    <!-- Submit success message-->
+                    <!-- Submit success message
                     <!---->
                     <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
+                    <!-- has successfully submitted
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">Form submission successful!</div>
@@ -402,9 +479,9 @@ Ezequiel Maximiliano Sosa.</p></br>
                     <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
+                    <!-- an error submitting the form
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
+                    <!-- Submit Button
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
@@ -413,15 +490,18 @@ Ezequiel Maximiliano Sosa.</p></br>
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Ezequiel Maximiliano Sosa - 2024</div>
                     <div class="col-lg-4 my-3 my-lg-0">
+                        <!-- Footer
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- Footer-->
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <a class="link-dark text-decoration-none me-3" href="#!">Política de Privacidad</a>
+                        <a class="link-dark text-decoration-none" href="#!">Términos de Uso</a>
                     </div>
                 </div>
             </div>
@@ -437,18 +517,21 @@ Ezequiel Maximiliano Sosa.</p></br>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Casalia Pinturería</h2>
+                                    <p class="item-intro text-muted">Fabricante, Expedición y Armado de Pedidos Caseros, 3 de Febrero, Buenos Aires.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>• Fabricación de pinturas sintéticas y al agua.</p>
+                                    <p>• Armado de pedidos y expedición.</p>
+                                    <p>• Carga y descarga de productos.</p>
+                                    <p>• Control de inventario para optimizar recursos.</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong>Empresa:</strong>
+                                            Casalia Pinturería
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <strong>Puesto / Cargo:</strong>
+                                            Fabricante, Expedición y Armado de Pedidos Caseros, 3 de Febrero, Buenos Aires.
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -472,18 +555,22 @@ Ezequiel Maximiliano Sosa.</p></br>
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Amanco</h2>
+                                    <p class="item-intro text-muted">Expedición y Armado de Pedidos Martín Coronado, 3 de Febrero, Buenos Aires.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>• Organización y preparación de pedidos de caños de plástico.</p>
+                                    <p>• Gestión de la logística de entrega y seguimiento de envíos.</p>
+                                    <p>• Manejo seguro y eficiente de productos pesados.</p>
+                                    <p>• Registro y control de materiales en stock.</p>
+
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Explore
+                                            <strong>Emresa:</strong>
+                                            Amanco
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
+                                            <strong>Puesto / Cargo:</strong>
+                                            Expedición y Armado de Pedidos
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
